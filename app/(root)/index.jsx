@@ -63,7 +63,7 @@ export default function Page() {
                     {/* Right */}
                     <View style={styles.headerRight}>
                         {/* Add Button */}
-                        <TouchableOpacity style={styles.addButton} onPress={() => navigation.navigate('add')}>
+                        <TouchableOpacity style={styles.addButton} onPress={() => navigation.navigate('create')}>
                             <Ionicons name="add-circle" size={20} color="white" />
                             <Text style={styles.addButtonText}>Add</Text>
                         </TouchableOpacity>
